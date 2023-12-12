@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic HTML Card</title>
+    <link rel="stylesheet" href="./styles.css" />
     <style>
       body {
         font-family: sans-serif;
@@ -33,10 +34,17 @@
       }
     </style>
   </head>
-  <body>
-    <section>
-      <article>
-        <h1>Free</h1>
+  <body style="font-family: sans-serif">
+    <section style="max-width: 300px; width: 300px; margin: 64px auto">
+      <article
+        style="
+          border: 2px solid black;
+          border-radius: 12px;
+          width: 100%;
+          padding: 4px 8px;
+        "
+      >
+        <h1 style="font-size: 24px">Free</h1>
 
         <p>
           For individuals or very small teams just getting started with Airtable
@@ -52,8 +60,16 @@
           <li>Unlimited bases</li>
           <li>Up to 5 creators or editor</li>
           <li>Unlimited commenter & read-only user</li>
-          <li><span>Interface Designer</span></li>
-          <li>1 <span>extension</span> per base</li>
+          <li>
+            <span style="text-decoration: underline dotted"
+              >Interface Designer</span
+            >
+          </li>
+          <li>
+            1
+            <span style="text-decoration: underline dotted">extension</span> per
+            base
+          </li>
           <li>1 sync integration</li>
           <li>1,200 records per base</li>
           <li>2GB of attachments per base</li>

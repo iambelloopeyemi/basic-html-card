@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+section {
+  max-width: 300px;
+  width: 300px;
+  margin: 64px auto;
+}
+
+article {
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 100%;
+  padding: 4px 8px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
